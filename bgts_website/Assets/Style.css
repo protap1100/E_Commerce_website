@@ -1,0 +1,320 @@
+ /*
+Arthot:Protap Biswas
+Theme:Village website
+*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+	width: 84%;
+	margin: 0 auto;
+	padding:1%;
+	border: 1px solid black;
+}
+.logo-image{
+	width: 100%;
+	height: 70px;
+}
+.image-responsive{
+	width: 100%;
+}
+
+
+.text-right{
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+.float-container{
+	position: center;
+}
+.image-curve{
+	border-radius: 10px;
+}
+a{
+	color: #5dd880;
+	text-decoration: none;
+}
+a:hover{
+	  color: #5a9add;
+}
+.btn{
+	padding: 1%;
+	border: none;
+	font-size: 1rem;
+	border-radius: 7px;
+}
+
+.btn-primary{
+	background-color: #2ed573;
+	color: white;
+	cursor: pointer;
+
+}
+.btn:hover{
+	background-color: #5ce866;
+	
+}
+.float-text{
+	position: absolute;
+	bottom: 50px;
+	left: 36%;
+}
+.float-container{
+	position: relative;
+}
+
+/*Css For Navbar Section*/
+.navbar{
+	background-color: #2ed573;
+}
+.logo{
+	width:10%;
+	float:left;
+	height: 10px;
+
+}
+.menu{
+	line-height: 70px;
+	background-color: #2ed573;
+}
+.menu ul li{
+	display: inline;
+	padding: 1%;
+	font-weight: bold;
+	background-color: #7bed9f;
+
+}
+
+.menu ul li a{
+	color:black;
+	background-color: #7bed9f;
+
+}
+
+.menu ul li a:hover{
+	color:#1e90ff;
+}
+
+
+/*Member Search Section*/
+.Member-search{
+	background-image: url(../Assets/img/hero-bg.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 5% 0;
+}
+
+.Member-search input[type="search"]{
+		width: 50%;
+		padding:1%;
+		font-size: 1rem;
+		border: none;
+		border-radius: 7px;
+}
+
+/*Main Content Section*/
+.main-content{
+	background-color: #dfe4ea;
+	padding: 6% 1% ;
+}
+
+/*Occassions Section*/
+.Ocassions{
+	padding: 3% 0;
+}
+
+.box-3{
+	width: 28%;
+	float: left;
+	margin: 2%;
+	/*border-radius: 15px;	*/
+}
+
+
+
+
+/*Member Section*/
+.Member-menu{
+	background-color: #f7e3e3;
+	
+}
+
+.image-member{
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 0 auto;
+}
+
+
+.Member-menu-box{
+	width: 45%;
+	margin: 1%;
+	padding: 1%;
+	float: left;
+	background-color: #bed4db;
+	border-radius: 10px;
+}
+
+.Member-menu-img{
+	width: 20%;
+	float: left;
+}
+.Member-menu-desc{
+	width: 70%;
+	float: left;
+	margin-left:8%; 
+}
+.Member-desc{
+	font-size: 1.2rem;
+	margin: 2%;
+}
+
+.Member-detail{
+	color: #747d8c;
+	font-size: 1rem;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin:0 auto;
+  width:100%;
+  border: 1px solid green;
+}
+
+td, th {
+  border: 1px solid #7bed9f;
+  text-align: left;
+  padding: 8px;
+}
+th{
+	background-color:  #1e90ff
+}
+td{
+	background-color: #b4dcea;
+}
+
+tr:nth-child() {
+  background-color: #7bed9f;
+}
+
+
+
+/*Social Section */
+.footer{
+	background-color: #7bed9f;
+}
+.social ul{
+	list-style-type: none;
+	margin: 1%;
+}
+
+.social ul li{
+	display: inline;
+	padding: 1%;
+	margin: 1%;
+
+}
+
+.footer{
+	background-color: #7bed9f;
+}
+
+/*Member Detais Section*/
+
+.Member-Details{
+	width: 60%;
+	margin:0 auto;
+	border: 1px solid black;
+	height: 0 auto;
+	background-color: #2ED573;
+
+}
+
+.Member-details2{
+	width: 60%;
+	padding-left: 20%;
+}
+
+/*Rules*/
+.Rules{
+	width: 90%;
+	margin:0 auto;
+	font-size: 20px;
+	border: 1px solid black;
+	background-color: #2ED573;
+}
+
+/*For Contact Us section*/
+
+.signup{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 50%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 7px;
+    font-size: 1rem;
+    background-color: #e1f7e7;
+}
+.signup-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+.error{
+    color: red;
+}
+.success{
+    color: blue;
+}
+.Contact_us{
+	background-color: #7BED9F;
+}
+
+/*Registration Section*/
+
+.Registration{
+	padding: 4% 0;
+}
+/*About us Section*/
+.about{
+	
+}
+
+/*Ocassions_Details Sections*/
+
+.Occ-3{
+	width: 28%;
+	float: left;
+	margin: 2%;
+	/*border-radius: 15px;	*/
+}
+.none{
+	border: 1px solid black;
+}
+
+.Ocassions_details{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
